@@ -1,11 +1,4 @@
-// Formlarla Calismak Bolum Sonu Egzersizi
 
-/*
-1: Form Sec
-2: Input Bilgisini UL icerisine Ekle
-3: Form icindeki bilgiyi sifirla
-4: Eger forma bilgi girilmezse kullaniciyi uyar 
-*/
 
 let userFormDOM = document.querySelector('#userForm')
 userFormDOM.addEventListener('submit', formHandler)
@@ -34,11 +27,6 @@ function formHandler(event) {
             )
     }
 }
-
-/* <li class="list-group-item d-flex justify-content-between align-items-center">
-    A list item
-    <span class="badge bg-primary rounded-pill">14</span>
-</li> */
 
 let userListDOM = document.querySelector('#userList')
 
